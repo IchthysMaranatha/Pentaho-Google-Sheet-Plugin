@@ -14,5 +14,4 @@ jobs:
           java-version: '11'
           distribution: 'adopt'
       - name: Build with Maven
-        run:
-            rm -rf ~/.m2/repository
+        run: mvn package
