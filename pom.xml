@@ -19,7 +19,7 @@
   <repositories>
     <repository>
       <id>pentaho</id>   
-      <url>http://ivy-nexus.pentaho.org/content/groups/omni</url>
+      <url>https://nexus.pentaho.org/content/groups/omni/</url>
     </repository>
   </repositories>
   
