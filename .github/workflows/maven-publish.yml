@@ -5,13 +5,13 @@ on: [push]
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v3
-      - name: Cache the Maven packages to speed up build
-      - uses: actions/cache@v1
+      - uses: actions/checkout@v2
+      - name: Set up JDK 11
+        uses: actions/setup-java@v2
         with:
-          path: ~/.m2
-          key: ${{ runner.os }}-m2-${{ hashFiles('**/pom.xml') }}
-          restore-keys: ${{ runner.os }}-m2 
+          java-version: '7'
+          cache: 'maven'
       - name: Build with Maven
-        run: mvn package
+        run: mvn --batch-mode --update-snapshots package
