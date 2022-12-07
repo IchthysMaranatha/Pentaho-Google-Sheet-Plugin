@@ -19,7 +19,7 @@
   <repositories>
     <repository>
       <id>pentaho</id>   
-      <url>https://nexus.pentaho.org/content/groups/omni/</url>
+      <url>https://repo.orl.eng.hitachivantara.com/ui/native/pnt-mvn/</url>
     </repository>
   </repositories>
   
