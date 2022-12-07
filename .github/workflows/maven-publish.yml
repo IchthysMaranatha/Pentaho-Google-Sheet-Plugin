@@ -14,6 +14,6 @@ jobs:
           distribution: 'zulu'
           java-version: '8'
           cache: 'maven'
-          key: ${{ runner.os }}-mycache-v1-${{ hashFiles(...) }}
+          key: ${{ runner.os }}-mycache-v1-${{ hashFiles('**/pom.xml') }}
       - name: Build with Maven
         run: mvn --batch-mode --update-snapshots package
