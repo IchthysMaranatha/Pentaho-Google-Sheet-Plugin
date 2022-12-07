@@ -98,7 +98,7 @@ public class PentahoGoogleSheetsPluginInputMeta extends BaseStepMeta implements 
     @Injection( name = "impersonation", group = "SHEET" )
     private String impersonation;
 
-	@Injection( name = "sampleFields", group = "INPUT_Fields" )
+	@Injection( name = "sampleFields", group = "INPUT_FIELDS" )
 	private Integer sampleFields;
 
     @Injection( name = "appName", group = "SHEET" )
