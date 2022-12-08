@@ -18,7 +18,7 @@
   
   <repositories>
     <repository>
-      <id>artifactory</id>
+      <id>pentaho-public</id>
       <name>Pentaho</name>
       <url>https://repo.orl.eng.hitachivantara.com/ui/native/pnt-mvn/</url>
     </repository>
