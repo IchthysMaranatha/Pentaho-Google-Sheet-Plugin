@@ -104,7 +104,6 @@ public class PentahoGoogleSheetsPluginInputMeta extends BaseStepMeta implements 
 	@InjectionDeep
 	private PentahoGoogleSheetsPluginInputFields[] inputFields;
 	
-	@Injection( name = "sampleFields", group = "INPUT_Fields" )
 	private Integer sampleFields;
     @Override
     public void setDefault() {   
