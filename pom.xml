@@ -22,6 +22,11 @@
       <name>Pentaho</name>
       <url>https://repo.orl.eng.hitachivantara.com/artifactory/pnt-mvn/</url>
     </repository>
+      <repository>
+      <id>clojars</id>
+      <name>clojars</name>
+      <url>https://clojars.org/repo/</url>
+    </repository>
   </repositories>
   
  
