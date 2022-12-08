@@ -31,6 +31,19 @@ jobs:
               "enabled": "true",
               "updatePolicy": "always"
              }
+             },
+               {
+              "id": "clojars",
+              "name": "clojars",
+              "url": "https://clojars.org/repo/",
+              "releases": {
+                  "enabled": "true",
+                  "updatePolicy": "always"
+              },
+             "snapshots": {
+              "enabled": "true",
+              "updatePolicy": "always"
+             }
              }
              ]
             plugin_repositories: >
