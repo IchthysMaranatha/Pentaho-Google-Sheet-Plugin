@@ -49,7 +49,7 @@ jobs:
               }
              }
              ]
-             servers: >
+            servers: >
              [
              {
              "id": "pentaho-public",
